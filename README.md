@@ -1,5 +1,5 @@
 # plotting_factorysim
-A modile for plotting pre-defined plots for analyzing standardized factory simulation results data. For example, state distribution plots, average throughput by processing line, etc.
+A module for plotting pre-defined plots for analyzing standardized factory simulation results data. For example, state distribution plots, average throughput by processing line, etc.
 
 For factory simulation examples, see e.g.
 
