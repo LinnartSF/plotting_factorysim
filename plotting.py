@@ -3,7 +3,7 @@
 
 This is a module wrapping pandas and matplotlib.pyplot
 
-This module can be used to make use of predefined plots, that receive pandas dataframes in predefined structures
+This module can be used to make use of predefined plots, that receive pandas dataframes in predefined structures.
 
 The idea is to setup a database into which analysis results from e.g. a discrete-event simulation model are written; for this I wrote another module that is available in another repository. 
 Using that module would ensure a standardized way of registring simulation results, and in that case standardized plots as in this module could be used.
