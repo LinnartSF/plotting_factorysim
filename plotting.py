@@ -87,9 +87,9 @@ def plot_throughputtimeline(df: pandas.DataFrame, cumulative: bool, mintime: flo
     # create line plots for each equipment one by one
     for equipment in df["equipment_name"].unique():
         if cumulative == True:
-            plt.plot(df[df["equipment_name"]==equipment]["time_sim"], df[df["equipment_name"]==equipment][["picks","places"]].sim(axis=1), label = equipment)
+            plt.plot(df[df["equipment_name"]==equipment]["time_sim"], df[df["equipment_name"]==equipment][["picks","places"]].sum(axis=1), label = equipment)
         else:
-            plt.plot(df[df["equipment_name"]==equipment]["time_sim"], df[df["equipment_name"]==equipment][["pick","place"]].sim(axis=1), label = equipment)
+            plt.plot(df[df["equipment_name"]==equipment]["time_sim"], df[df["equipment_name"]==equipment][["pick","place"]].sum(axis=1), label = equipment)
 
     # if only a certain time window of results should be displayed then frame x axis accordingly
     if maxtime > 0.0:
