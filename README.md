@@ -14,3 +14,4 @@ A module for plotting pre-defined plots for analyzing standardized factory simul
 - <a href="https://www.supplychaindataanalytics.com/conveyor-system-optimization-and-simulation/">Conveyor system optimization and simulation</a>
 - <a href="https://www.supplychaindataanalytics.com/agv-simulation-of-part-routings-in-anylogic/">AGV simulation of part routings in AnyLogic</a>
 - <a href="https://www.supplychaindataanalytics.com/inventory-simulation-for-optimized-stock/">Inventory simulation for optimized stock</a>
+- <a href="https://www.supplychaindataanalytics.com/assembly-line-simulation-and-line-balancing/">Assembly line simulation and line balancing</a>
